@@ -17,6 +17,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="Add1" customModuleProvider="target">
             <connections>
+                <outlet property="inputField" destination="oVc-xJ-CyR" id="3OP-CK-yuF"/>
+                <outlet property="numbersLabel" destination="hcd-fg-h9Q" id="sfP-Ot-de0"/>
+                <outlet property="scoreLabel" destination="QSv-Ps-de8" id="gai-FE-dpk"/>
+                <outlet property="timeLabel" destination="hTI-bf-im0" id="XBc-h2-IlY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -73,7 +77,7 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="6789" textAlignment="center" minimumFontSize="17" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="oVc-xJ-CyR">
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="oVc-xJ-CyR">
                     <rect key="frame" x="114.66666666666669" y="399.66666666666669" width="185" height="97"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="97" id="RVv-Gx-8bX"/>
